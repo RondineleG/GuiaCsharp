@@ -19,7 +19,6 @@ namespace ConsoleApp
             Console.WriteLine("Digite uma idade !");
             double idade = Convert.ToDouble(Console.ReadLine());
             UsandoifElse.IfeElse(idade);
-            AprendendoArrays.UsandoArrays([2]);
             Console.ReadKey();
 
             // Arrays de strings
