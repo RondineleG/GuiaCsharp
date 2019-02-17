@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumeroParOuImpar", "NumeroP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeuNomeNaTela", "MeuNomeNaTela\MeuNomeNaTela.csproj", "{C936CE56-E5C0-4E3F-8C00-FF852D49F640}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoIMC", "CalculoIMC\CalculoIMC.csproj", "{3CA1765C-9AA6-4F37-840F-6C124E5B7CD6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{C936CE56-E5C0-4E3F-8C00-FF852D49F640}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C936CE56-E5C0-4E3F-8C00-FF852D49F640}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C936CE56-E5C0-4E3F-8C00-FF852D49F640}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CA1765C-9AA6-4F37-840F-6C124E5B7CD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CA1765C-9AA6-4F37-840F-6C124E5B7CD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CA1765C-9AA6-4F37-840F-6C124E5B7CD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CA1765C-9AA6-4F37-840F-6C124E5B7CD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
