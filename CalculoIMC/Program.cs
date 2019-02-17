@@ -7,7 +7,7 @@ namespace CalculoIMC
         private static void Main(String[] args)
         {
             double peso = 0, altura = 0, valorIMC = 0;
-
+            Console.Title = "Guia Csharp";
             Console.WriteLine("Digite o valor da massa corporal em Kg :");
 
             peso = Convert.ToDouble(Console.ReadLine());

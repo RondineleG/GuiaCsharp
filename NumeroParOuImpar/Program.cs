@@ -7,6 +7,7 @@ namespace NumeroParOuImpar
         static void Main(string[] args)
         {
             int numeroDigitado;
+            Console.Title = "Guia Csharp";
             Console.WriteLine("Digite um numero : ");
             numeroDigitado = Convert.ToInt32(Console.ReadLine());
 

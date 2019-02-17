@@ -8,7 +8,7 @@ namespace CriandoUmaCalculadora
 
             Int32 numero1, numero2, resultado = 0;
             String operacao;
-
+            Console.Title = "Guia Csharp";
             Console.WriteLine("Digite o primeiro numero : ");
             numero1 = int.Parse(Console.ReadLine());
 

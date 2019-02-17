@@ -6,6 +6,7 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
+            Console.Title = "Guia Csharp";
             Console.WriteLine("Olá Mundo");
             Apresentacao.ApresentaNaTela("Ola, Mundo");
             Console.WriteLine("Digite o Primeiro numero :");
