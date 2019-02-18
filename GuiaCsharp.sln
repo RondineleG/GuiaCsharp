@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeuNomeNaTela", "MeuNomeNaT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoIMC", "CalculoIMC\CalculoIMC.csproj", "{3CA1765C-9AA6-4F37-840F-6C124E5B7CD6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaAritmetica", "MediaAritmetica\MediaAritmetica.csproj", "{87B5B727-2081-4958-AAE3-5F52C08ABD54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{3CA1765C-9AA6-4F37-840F-6C124E5B7CD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CA1765C-9AA6-4F37-840F-6C124E5B7CD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CA1765C-9AA6-4F37-840F-6C124E5B7CD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87B5B727-2081-4958-AAE3-5F52C08ABD54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87B5B727-2081-4958-AAE3-5F52C08ABD54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87B5B727-2081-4958-AAE3-5F52C08ABD54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87B5B727-2081-4958-AAE3-5F52C08ABD54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
