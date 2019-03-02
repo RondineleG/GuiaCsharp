@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoIMC", "CalculoIMC\Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaAritmetica", "MediaAritmetica\MediaAritmetica.csproj", "{87B5B727-2081-4958-AAE3-5F52C08ABD54}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaixaRetangular", "CaixaRetangular\CaixaRetangular.csproj", "{9DE1AFDF-D5EF-40A0-92D0-B4E5D020B5B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversorDeTemperatura", "ConversorDeTemperatura\ConversorDeTemperatura.csproj", "{D6D6165D-6703-4296-A50E-7EC21BFF8593}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{87B5B727-2081-4958-AAE3-5F52C08ABD54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87B5B727-2081-4958-AAE3-5F52C08ABD54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87B5B727-2081-4958-AAE3-5F52C08ABD54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DE1AFDF-D5EF-40A0-92D0-B4E5D020B5B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DE1AFDF-D5EF-40A0-92D0-B4E5D020B5B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DE1AFDF-D5EF-40A0-92D0-B4E5D020B5B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DE1AFDF-D5EF-40A0-92D0-B4E5D020B5B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6D6165D-6703-4296-A50E-7EC21BFF8593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6D6165D-6703-4296-A50E-7EC21BFF8593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6D6165D-6703-4296-A50E-7EC21BFF8593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6D6165D-6703-4296-A50E-7EC21BFF8593}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

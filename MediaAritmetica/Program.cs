@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MediaAritmetica
 {
@@ -25,6 +21,7 @@ namespace MediaAritmetica
 
             double resultadoImpar = (a + b + c + d + e) / 5;
             double resultadoPar = (f + g + h + i) / 4;
+            Console.Title = "Guia Csharp";
             if (resultadoImpar == resultadoPar)
             {
                 Console.WriteLine("A media dos numeros Pares e Impares de 1 a 9 são Iguais !!!!");
