@@ -6,7 +6,7 @@ namespace CriandoUmaCalculadora
         private static void Main()
         {
 
-            Int32 numero1, numero2, resultado = 0;
+            int numero1, numero2, resultado = 0;
             String operacao;
             Console.Title = "Guia Csharp";
             Console.WriteLine("Digite o primeiro numero : ");

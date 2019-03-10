@@ -8,7 +8,7 @@ namespace ConversorDeTemperatura
         {
             {
                 // Variaveis
-                Double f, c;
+                double f, c;
 
                 while (true)
                 {
@@ -17,7 +17,7 @@ namespace ConversorDeTemperatura
                   
                     Console.WriteLine(" Digite 0 para converter de Fakrenkeit para Celcius . ");
                     Console.WriteLine(" Digite 1 para converter de Celcius para Fakrenkeit . ");
-                    Int32 temperatura = int.Parse(Console.ReadLine());
+                    int temperatura = int.Parse(Console.ReadLine());
 
                     if (temperatura == 0)
                     {

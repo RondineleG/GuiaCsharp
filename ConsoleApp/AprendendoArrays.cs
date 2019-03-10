@@ -7,10 +7,10 @@ namespace ConsoleApp
         public static void UsandoArrays()
         {
             // Arrays de inteiros
-            Int32[] arrayInteiro = new Int32[] { 1, 2, 3, 4, 50 };
+            int[] arrayInteiro = new int[] { 1, 2, 3, 4, 50 };
             Console.WriteLine(arrayInteiro[4]);
 
-            Int32[] segundoArray = new Int32[10];
+            int[] segundoArray = new int[10];
             segundoArray[0] = 50;
             segundoArray[1] = 20;
             segundoArray[2] = 30;

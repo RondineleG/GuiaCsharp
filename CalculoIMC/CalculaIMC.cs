@@ -4,12 +4,12 @@ namespace CalculoIMC
 {
     internal class CalculaIMC
     {                            
-        public Double Calcular(Double peso, Double altura)
+        public double Calcular(double peso, double altura)
         {
             return  ((peso) / (altura * altura));           
         }
         
-        public String ClassificarIMC(Double imc)
+        public string ClassificarIMC(double imc)
         {
             if (imc < 16)
             {

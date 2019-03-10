@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28621.142
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{ED05753D-A0FC-4DD3-BD6B-5A17A0452FD4}"
 EndProject
@@ -24,6 +24,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - WinForms", "1 - WinForms", "{9327B1C1-7AE0-4606-A3BF-47A47CD8F562}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{03643DEF-DA29-4D88-A176-155B8BD0D943}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpComSqlServer", "CSharpComSqlServer\CSharpComSqlServer.csproj", "{C2C5AAF3-76D1-4BDF-A428-B9171060C405}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculosGeometricos", "CalculosGeometricos\CalculosGeometricos.csproj", "{6E6E7BF0-3B0E-45E0-BA6A-D3A61C04A295}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +71,14 @@ Global
 		{03643DEF-DA29-4D88-A176-155B8BD0D943}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03643DEF-DA29-4D88-A176-155B8BD0D943}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03643DEF-DA29-4D88-A176-155B8BD0D943}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2C5AAF3-76D1-4BDF-A428-B9171060C405}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2C5AAF3-76D1-4BDF-A428-B9171060C405}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2C5AAF3-76D1-4BDF-A428-B9171060C405}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2C5AAF3-76D1-4BDF-A428-B9171060C405}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E6E7BF0-3B0E-45E0-BA6A-D3A61C04A295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E6E7BF0-3B0E-45E0-BA6A-D3A61C04A295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E6E7BF0-3B0E-45E0-BA6A-D3A61C04A295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E6E7BF0-3B0E-45E0-BA6A-D3A61C04A295}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -81,6 +93,8 @@ Global
 		{9DE1AFDF-D5EF-40A0-92D0-B4E5D020B5B4} = {DD2773BA-3954-4ED5-B8DF-7C6D97FF4392}
 		{D6D6165D-6703-4296-A50E-7EC21BFF8593} = {DD2773BA-3954-4ED5-B8DF-7C6D97FF4392}
 		{03643DEF-DA29-4D88-A176-155B8BD0D943} = {9327B1C1-7AE0-4606-A3BF-47A47CD8F562}
+		{C2C5AAF3-76D1-4BDF-A428-B9171060C405} = {9327B1C1-7AE0-4606-A3BF-47A47CD8F562}
+		{6E6E7BF0-3B0E-45E0-BA6A-D3A61C04A295} = {DD2773BA-3954-4ED5-B8DF-7C6D97FF4392}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EF8A5013-AF97-40D0-9FE3-01EBAE8E0176}
