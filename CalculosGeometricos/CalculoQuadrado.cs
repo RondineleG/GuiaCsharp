@@ -4,9 +4,11 @@ namespace CalculosGeometricos
 {
     public class CalculoQuadrado
     {
-        public static void CalculaAreaQuadrado(int valorLadoQuadrado)
+        public static void CalculaAreaQuadrado(double valorLadoQuadrado)
         {
-            Console.WriteLine("A area do Quadrado e: {0}",  valorLadoQuadrado * valorLadoQuadrado);
+            double areaQuadrado = valorLadoQuadrado * valorLadoQuadrado;
+            Console.WriteLine("A area do quadrado e : {0}", areaQuadrado);
+
         }
     }
 }

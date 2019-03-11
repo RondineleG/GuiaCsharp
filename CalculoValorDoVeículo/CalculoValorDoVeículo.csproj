@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6E6E7BF0-3B0E-45E0-BA6A-D3A61C04A295}</ProjectGuid>
+    <ProjectGuid>{528510DC-D595-4BD1-B9E6-9BF4D931B772}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CalculosGeometricos</RootNamespace>
-    <AssemblyName>CalculosGeometricos</AssemblyName>
+    <RootNamespace>CalculoValorDoVeículo</RootNamespace>
+    <AssemblyName>CalculoValorDoVeículo</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CalculoQuadrado.cs" />
-    <Compile Include="CalculoRetangulo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
