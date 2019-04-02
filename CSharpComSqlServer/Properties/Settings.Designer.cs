@@ -26,10 +26,11 @@ namespace CSharpComSqlServer.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.\\SQLEXPRESS;Initial Catalog=HippoDB;Integrated Security=True")]
-        public string HippoDBConnectionString {
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\DatabaseClien" +
+            "tes.mdf;Integrated Security=True;Connect Timeout=30")]
+        public string ConnectionString {
             get {
-                return ((string)(this["HippoDBConnectionString"]));
+                return ((string)(this["ConnectionString"]));
             }
         }
     }

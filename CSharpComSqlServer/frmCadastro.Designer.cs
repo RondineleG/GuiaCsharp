@@ -1,6 +1,6 @@
-﻿namespace HelloWorld
+﻿namespace CSharpComSqlServer
 {
-    partial class frmHelloWorld
+    partial class frmCadastro
     {
         /// <summary>
         /// Required designer variable.
@@ -28,8 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnMensagen = new System.Windows.Forms.Button();
-            this.lblMensagen = new System.Windows.Forms.Label();
+            this.btnCancelar = new System.Windows.Forms.Button();
+            this.btnSalvar = new System.Windows.Forms.Button();
+            this.lblNome = new System.Windows.Forms.Label();
+            this.txtNome = new System.Windows.Forms.TextBox();
+            this.txtTelefone = new System.Windows.Forms.TextBox();
+            this.lblTelefone = new System.Windows.Forms.Label();
             this.pnlTopo = new System.Windows.Forms.Panel();
             this.lblCliente = new System.Windows.Forms.Label();
             this.btnMininizar = new System.Windows.Forms.Button();
@@ -37,28 +41,64 @@
             this.pnlTopo.SuspendLayout();
             this.SuspendLayout();
             // 
-            // btnMensagen
+            // btnCancelar
             // 
-            this.btnMensagen.Location = new System.Drawing.Point(76, 78);
-            this.btnMensagen.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btnMensagen.Name = "btnMensagen";
-            this.btnMensagen.Size = new System.Drawing.Size(205, 21);
-            this.btnMensagen.TabIndex = 0;
-            this.btnMensagen.Text = "Click Aqui";
-            this.btnMensagen.UseVisualStyleBackColor = true;
-            this.btnMensagen.Click += new System.EventHandler(this.BtnMensagen_Click);
+            this.btnCancelar.Location = new System.Drawing.Point(90, 119);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(63, 27);
+            this.btnCancelar.TabIndex = 0;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.UseVisualStyleBackColor = true;
             // 
-            // lblMensagen
+            // btnSalvar
             // 
-            this.lblMensagen.BackColor = System.Drawing.Color.White;
-            this.lblMensagen.CausesValidation = false;
-            this.lblMensagen.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.lblMensagen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblMensagen.Location = new System.Drawing.Point(0, 130);
-            this.lblMensagen.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblMensagen.Name = "lblMensagen";
-            this.lblMensagen.Size = new System.Drawing.Size(347, 33);
-            this.lblMensagen.TabIndex = 1;
+            this.btnSalvar.Location = new System.Drawing.Point(170, 119);
+            this.btnSalvar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSalvar.Name = "btnSalvar";
+            this.btnSalvar.Size = new System.Drawing.Size(57, 27);
+            this.btnSalvar.TabIndex = 1;
+            this.btnSalvar.Text = "Salvar";
+            this.btnSalvar.UseVisualStyleBackColor = true;
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
+            // 
+            // lblNome
+            // 
+            this.lblNome.AutoSize = true;
+            this.lblNome.Location = new System.Drawing.Point(17, 62);
+            this.lblNome.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblNome.Name = "lblNome";
+            this.lblNome.Size = new System.Drawing.Size(41, 13);
+            this.lblNome.TabIndex = 2;
+            this.lblNome.Text = "Nome :";
+            // 
+            // txtNome
+            // 
+            this.txtNome.Location = new System.Drawing.Point(90, 62);
+            this.txtNome.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNome.Multiline = true;
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(138, 18);
+            this.txtNome.TabIndex = 3;
+            // 
+            // txtTelefone
+            // 
+            this.txtTelefone.Location = new System.Drawing.Point(90, 90);
+            this.txtTelefone.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTelefone.Multiline = true;
+            this.txtTelefone.Name = "txtTelefone";
+            this.txtTelefone.Size = new System.Drawing.Size(138, 18);
+            this.txtTelefone.TabIndex = 5;
+            // 
+            // lblTelefone
+            // 
+            this.lblTelefone.AutoSize = true;
+            this.lblTelefone.Location = new System.Drawing.Point(17, 93);
+            this.lblTelefone.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblTelefone.Name = "lblTelefone";
+            this.lblTelefone.Size = new System.Drawing.Size(55, 13);
+            this.lblTelefone.TabIndex = 4;
+            this.lblTelefone.Text = "Telefone :";
             // 
             // pnlTopo
             // 
@@ -70,8 +110,8 @@
             this.pnlTopo.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlTopo.Location = new System.Drawing.Point(0, 0);
             this.pnlTopo.Name = "pnlTopo";
-            this.pnlTopo.Size = new System.Drawing.Size(347, 30);
-            this.pnlTopo.TabIndex = 51;
+            this.pnlTopo.Size = new System.Drawing.Size(260, 30);
+            this.pnlTopo.TabIndex = 44;
             // 
             // lblCliente
             // 
@@ -89,7 +129,7 @@
             this.btnMininizar.BackColor = System.Drawing.Color.Maroon;
             this.btnMininizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMininizar.ForeColor = System.Drawing.Color.White;
-            this.btnMininizar.Location = new System.Drawing.Point(290, 1);
+            this.btnMininizar.Location = new System.Drawing.Point(203, 1);
             this.btnMininizar.Name = "btnMininizar";
             this.btnMininizar.Size = new System.Drawing.Size(30, 30);
             this.btnMininizar.TabIndex = 1;
@@ -103,7 +143,7 @@
             this.btnFeichar.BackColor = System.Drawing.Color.Maroon;
             this.btnFeichar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFeichar.ForeColor = System.Drawing.Color.White;
-            this.btnFeichar.Location = new System.Drawing.Point(318, 1);
+            this.btnFeichar.Location = new System.Drawing.Point(231, 1);
             this.btnFeichar.Name = "btnFeichar";
             this.btnFeichar.Size = new System.Drawing.Size(30, 30);
             this.btnFeichar.TabIndex = 2;
@@ -111,28 +151,39 @@
             this.btnFeichar.UseVisualStyleBackColor = false;
             this.btnFeichar.Click += new System.EventHandler(this.btnFeichar_Click);
             // 
-            // frmHelloWorld
+            // frmCadastro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(347, 163);
+            this.ClientSize = new System.Drawing.Size(260, 168);
+            this.ControlBox = false;
             this.Controls.Add(this.pnlTopo);
-            this.Controls.Add(this.lblMensagen);
-            this.Controls.Add(this.btnMensagen);
+            this.Controls.Add(this.txtTelefone);
+            this.Controls.Add(this.lblTelefone);
+            this.Controls.Add(this.txtNome);
+            this.Controls.Add(this.lblNome);
+            this.Controls.Add(this.btnSalvar);
+            this.Controls.Add(this.btnCancelar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.Name = "frmHelloWorld";
-            this.Text = "Hello World";
+            this.Name = "frmCadastro";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Cadastro Com SQL Server";
             this.pnlTopo.ResumeLayout(false);
             this.pnlTopo.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button btnMensagen;
-        private System.Windows.Forms.Label lblMensagen;
+        private System.Windows.Forms.Button btnCancelar;
+        private System.Windows.Forms.Button btnSalvar;
+        private System.Windows.Forms.Label lblNome;
+        private System.Windows.Forms.TextBox txtNome;
+        private System.Windows.Forms.TextBox txtTelefone;
+        private System.Windows.Forms.Label lblTelefone;
         private System.Windows.Forms.Panel pnlTopo;
         internal System.Windows.Forms.Label lblCliente;
         private System.Windows.Forms.Button btnMininizar;

@@ -24,5 +24,15 @@ namespace HelloWorld
             lblMensagen.Text = mensagen;
             
         }
+
+        private void btnFeichar_Click(Object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnMininizar_Click(Object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }
