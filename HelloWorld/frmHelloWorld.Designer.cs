@@ -39,8 +39,8 @@
             // 
             // btnMensagen
             // 
-            this.btnMensagen.Location = new System.Drawing.Point(76, 78);
-            this.btnMensagen.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnMensagen.Location = new System.Drawing.Point(54, 45);
+            this.btnMensagen.Margin = new System.Windows.Forms.Padding(2);
             this.btnMensagen.Name = "btnMensagen";
             this.btnMensagen.Size = new System.Drawing.Size(205, 21);
             this.btnMensagen.TabIndex = 0;
@@ -57,7 +57,7 @@
             this.lblMensagen.Location = new System.Drawing.Point(0, 130);
             this.lblMensagen.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblMensagen.Name = "lblMensagen";
-            this.lblMensagen.Size = new System.Drawing.Size(347, 33);
+            this.lblMensagen.Size = new System.Drawing.Size(305, 33);
             this.lblMensagen.TabIndex = 1;
             // 
             // pnlTopo
@@ -70,7 +70,7 @@
             this.pnlTopo.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlTopo.Location = new System.Drawing.Point(0, 0);
             this.pnlTopo.Name = "pnlTopo";
-            this.pnlTopo.Size = new System.Drawing.Size(347, 30);
+            this.pnlTopo.Size = new System.Drawing.Size(305, 30);
             this.pnlTopo.TabIndex = 51;
             // 
             // lblCliente
@@ -89,7 +89,7 @@
             this.btnMininizar.BackColor = System.Drawing.Color.Maroon;
             this.btnMininizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMininizar.ForeColor = System.Drawing.Color.White;
-            this.btnMininizar.Location = new System.Drawing.Point(290, 1);
+            this.btnMininizar.Location = new System.Drawing.Point(248, 1);
             this.btnMininizar.Name = "btnMininizar";
             this.btnMininizar.Size = new System.Drawing.Size(30, 30);
             this.btnMininizar.TabIndex = 1;
@@ -103,7 +103,7 @@
             this.btnFeichar.BackColor = System.Drawing.Color.Maroon;
             this.btnFeichar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFeichar.ForeColor = System.Drawing.Color.White;
-            this.btnFeichar.Location = new System.Drawing.Point(318, 1);
+            this.btnFeichar.Location = new System.Drawing.Point(276, 1);
             this.btnFeichar.Name = "btnFeichar";
             this.btnFeichar.Size = new System.Drawing.Size(30, 30);
             this.btnFeichar.TabIndex = 2;
@@ -115,12 +115,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(347, 163);
+            this.ClientSize = new System.Drawing.Size(305, 163);
             this.Controls.Add(this.pnlTopo);
             this.Controls.Add(this.lblMensagen);
             this.Controls.Add(this.btnMensagen);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmHelloWorld";
             this.Text = "Hello World";
             this.pnlTopo.ResumeLayout(false);
