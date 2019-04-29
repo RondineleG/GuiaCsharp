@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculosGeometricos", "Calc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoValorDoVeículo", "CalculoValorDoVeículo\CalculoValorDoVeículo.csproj", "{528510DC-D595-4BD1-B9E6-9BF4D931B772}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoValorProduto", "CalculoValorProduto\CalculoValorProduto.csproj", "{5A60498D-964F-4488-874A-D06270F4A365}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +87,10 @@ Global
 		{528510DC-D595-4BD1-B9E6-9BF4D931B772}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{528510DC-D595-4BD1-B9E6-9BF4D931B772}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{528510DC-D595-4BD1-B9E6-9BF4D931B772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A60498D-964F-4488-874A-D06270F4A365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A60498D-964F-4488-874A-D06270F4A365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A60498D-964F-4488-874A-D06270F4A365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A60498D-964F-4488-874A-D06270F4A365}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -102,6 +108,7 @@ Global
 		{C2C5AAF3-76D1-4BDF-A428-B9171060C405} = {9327B1C1-7AE0-4606-A3BF-47A47CD8F562}
 		{6E6E7BF0-3B0E-45E0-BA6A-D3A61C04A295} = {DD2773BA-3954-4ED5-B8DF-7C6D97FF4392}
 		{528510DC-D595-4BD1-B9E6-9BF4D931B772} = {DD2773BA-3954-4ED5-B8DF-7C6D97FF4392}
+		{5A60498D-964F-4488-874A-D06270F4A365} = {DD2773BA-3954-4ED5-B8DF-7C6D97FF4392}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EF8A5013-AF97-40D0-9FE3-01EBAE8E0176}
