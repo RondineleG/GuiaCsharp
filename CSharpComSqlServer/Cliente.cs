@@ -1,6 +1,6 @@
 ﻿namespace CSharpComSqlServer
 {
-    public class ClienteObjeto
+    public class Cliente
     {
         public int Id { get; set; }
 

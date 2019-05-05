@@ -23,6 +23,11 @@ namespace CSharpComSqlServer
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        private void btnCancelar_Click(Object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
