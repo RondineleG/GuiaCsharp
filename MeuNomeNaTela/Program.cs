@@ -7,7 +7,6 @@ namespace MeuNomeNaTela
         static void Main(string[] args)
         {
             string meuNome;
-            Console.Title = "Guia Csharp";
             Console.Title = "Guia Csharp";            
             Console.BackgroundColor = ConsoleColor.Blue;
             Console.ForegroundColor = ConsoleColor.White;
