@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseRavenDB", "BaseRavenDB\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuloConsole", "ModuloConsole\ModuloConsole.csproj", "{0D26DEBC-5BE8-45FE-9C63-C2CAC21504BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CriandoVariaveis", "CriandoVariaveis\CriandoVariaveis.csproj", "{4FE41955-DA3B-4473-8E02-8E3F88F23E3D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -133,6 +135,10 @@ Global
 		{0D26DEBC-5BE8-45FE-9C63-C2CAC21504BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D26DEBC-5BE8-45FE-9C63-C2CAC21504BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D26DEBC-5BE8-45FE-9C63-C2CAC21504BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FE41955-DA3B-4473-8E02-8E3F88F23E3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FE41955-DA3B-4473-8E02-8E3F88F23E3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FE41955-DA3B-4473-8E02-8E3F88F23E3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FE41955-DA3B-4473-8E02-8E3F88F23E3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -158,6 +164,7 @@ Global
 		{219678DF-7F07-429C-A896-B648C62680F3} = {DD2773BA-3954-4ED5-B8DF-7C6D97FF4392}
 		{AF04C11D-5CDB-4516-83D8-3E4CBF545F12} = {DD2773BA-3954-4ED5-B8DF-7C6D97FF4392}
 		{0D26DEBC-5BE8-45FE-9C63-C2CAC21504BE} = {DD2773BA-3954-4ED5-B8DF-7C6D97FF4392}
+		{4FE41955-DA3B-4473-8E02-8E3F88F23E3D} = {DD2773BA-3954-4ED5-B8DF-7C6D97FF4392}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EF8A5013-AF97-40D0-9FE3-01EBAE8E0176}
