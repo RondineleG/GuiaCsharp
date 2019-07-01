@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CriandoVariaveis", "Criando
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CriandoVariaveisPontoFlutuante", "CriandoVariaveisPontoFlutuante\CriandoVariaveisPontoFlutuante.csproj", "{6B6175B9-FDFA-41A7-B7E4-AAE468A33C9F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conversoes", "Conversoes\Conversoes.csproj", "{A581A67F-0FA5-4863-81BB-1DF4EB5513FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -145,6 +147,10 @@ Global
 		{6B6175B9-FDFA-41A7-B7E4-AAE468A33C9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B6175B9-FDFA-41A7-B7E4-AAE468A33C9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B6175B9-FDFA-41A7-B7E4-AAE468A33C9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A581A67F-0FA5-4863-81BB-1DF4EB5513FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A581A67F-0FA5-4863-81BB-1DF4EB5513FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A581A67F-0FA5-4863-81BB-1DF4EB5513FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A581A67F-0FA5-4863-81BB-1DF4EB5513FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -172,6 +178,7 @@ Global
 		{0D26DEBC-5BE8-45FE-9C63-C2CAC21504BE} = {DD2773BA-3954-4ED5-B8DF-7C6D97FF4392}
 		{4FE41955-DA3B-4473-8E02-8E3F88F23E3D} = {DD2773BA-3954-4ED5-B8DF-7C6D97FF4392}
 		{6B6175B9-FDFA-41A7-B7E4-AAE468A33C9F} = {DD2773BA-3954-4ED5-B8DF-7C6D97FF4392}
+		{A581A67F-0FA5-4863-81BB-1DF4EB5513FA} = {DD2773BA-3954-4ED5-B8DF-7C6D97FF4392}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EF8A5013-AF97-40D0-9FE3-01EBAE8E0176}
