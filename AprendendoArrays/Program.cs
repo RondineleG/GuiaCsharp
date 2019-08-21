@@ -26,6 +26,10 @@ namespace AprendendoArrays
             int tamanho = novoArray.Length;
             Console.WriteLine(tamanho);
 
+            int[,] meuArray = new int[5, 10];
+
+            Console.WriteLine("Meu array tem {0} dimensão", meuArray.Rank);
+
             Console.ReadKey();
         }
     }
