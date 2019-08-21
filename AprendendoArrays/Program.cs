@@ -22,6 +22,10 @@ namespace AprendendoArrays
             Console.WriteLine(array2[0]);
             Console.WriteLine(novoArray[1]);
 
+            //Checando comprimento de um array
+            int tamanho = novoArray.Length;
+            Console.WriteLine(tamanho);
+
             Console.ReadKey();
         }
     }
