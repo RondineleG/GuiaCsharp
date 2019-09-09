@@ -51,7 +51,7 @@
             this.pnlTopo.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlTopo.Location = new System.Drawing.Point(0, 0);
             this.pnlTopo.Name = "pnlTopo";
-            this.pnlTopo.Size = new System.Drawing.Size(308, 30);
+            this.pnlTopo.Size = new System.Drawing.Size(290, 30);
             this.pnlTopo.TabIndex = 51;
             // 
             // lblCliente
@@ -70,7 +70,7 @@
             this.btnMininizar.BackColor = System.Drawing.Color.Maroon;
             this.btnMininizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMininizar.ForeColor = System.Drawing.Color.White;
-            this.btnMininizar.Location = new System.Drawing.Point(251, 1);
+            this.btnMininizar.Location = new System.Drawing.Point(233, 1);
             this.btnMininizar.Name = "btnMininizar";
             this.btnMininizar.Size = new System.Drawing.Size(30, 30);
             this.btnMininizar.TabIndex = 1;
@@ -84,7 +84,7 @@
             this.btnFeichar.BackColor = System.Drawing.Color.Maroon;
             this.btnFeichar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFeichar.ForeColor = System.Drawing.Color.White;
-            this.btnFeichar.Location = new System.Drawing.Point(279, 1);
+            this.btnFeichar.Location = new System.Drawing.Point(261, 1);
             this.btnFeichar.Name = "btnFeichar";
             this.btnFeichar.Size = new System.Drawing.Size(30, 30);
             this.btnFeichar.TabIndex = 2;
@@ -154,7 +154,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(308, 194);
+            this.ClientSize = new System.Drawing.Size(290, 194);
             this.ControlBox = false;
             this.Controls.Add(this.pnlTopo);
             this.Controls.Add(this.txtTelefone);
