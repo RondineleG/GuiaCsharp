@@ -14,15 +14,21 @@ namespace TiposAnonimos
                 Vivo = true,
 
                 OutroTipoAnonimo = new
-                { 
-                    Enderecp ="Rua Maria Lobes",
+                {
+                    Endereco = "Rua Maria Lobes",
                     Numero = 190,
                     Bairro = "Centro"
                 }
-
             };
 
-            Console.WriteLine(tipoAnonimo.OutroTipoAnonimo.Bairro);
+            ChamaTipoAnonimo(tipoAnonimo);
+
+            Console.WriteLine(tipoAnonimo.OutroTipoAnonimo.Bairro);           
+            
+        }
+        static void ChamaTipoAnonimo(dynamic parametro)
+        {
+            Console.WriteLine(parametro.OutroTipoAnonimo.Numero);
         }
     }
 }
