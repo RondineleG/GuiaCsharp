@@ -11,10 +11,18 @@ namespace TiposAnonimos
                 PrimeiroNome = "Rondinele",
                 SegundoNome = "Sousa",
                 Idade = 27,
-                Vivo = true
+                Vivo = true,
+
+                OutroTipoAnonimo = new
+                { 
+                    Enderecp ="Rua Maria Lobes",
+                    Numero = 190,
+                    Bairro = "Centro"
+                }
+
             };
 
-            Console.WriteLine(tipoAnonimo.Idade);
+            Console.WriteLine(tipoAnonimo.OutroTipoAnonimo.Bairro);
         }
     }
 }
