@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.421
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{ED05753D-A0FC-4DD3-BD6B-5A17A0452FD4}"
 EndProject
@@ -54,6 +54,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conversoes", "Conversoes\Conversoes.csproj", "{A581A67F-0FA5-4863-81BB-1DF4EB5513FA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelaLogin", "TelaLogin\TelaLogin.csproj", "{067C8BC6-628F-44A3-A366-4E1CE3035D5F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - NetCore", "2 - NetCore", "{E912339F-3EEC-4739-9E8D-D47879BE55C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiposAnonimos", "TiposAnonimos\TiposAnonimos.csproj", "{C34EE9CE-9934-4715-84AB-88F2BF619258}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -157,6 +161,10 @@ Global
 		{067C8BC6-628F-44A3-A366-4E1CE3035D5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{067C8BC6-628F-44A3-A366-4E1CE3035D5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{067C8BC6-628F-44A3-A366-4E1CE3035D5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C34EE9CE-9934-4715-84AB-88F2BF619258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C34EE9CE-9934-4715-84AB-88F2BF619258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C34EE9CE-9934-4715-84AB-88F2BF619258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C34EE9CE-9934-4715-84AB-88F2BF619258}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -186,6 +194,7 @@ Global
 		{6B6175B9-FDFA-41A7-B7E4-AAE468A33C9F} = {DD2773BA-3954-4ED5-B8DF-7C6D97FF4392}
 		{A581A67F-0FA5-4863-81BB-1DF4EB5513FA} = {DD2773BA-3954-4ED5-B8DF-7C6D97FF4392}
 		{067C8BC6-628F-44A3-A366-4E1CE3035D5F} = {9327B1C1-7AE0-4606-A3BF-47A47CD8F562}
+		{C34EE9CE-9934-4715-84AB-88F2BF619258} = {E912339F-3EEC-4739-9E8D-D47879BE55C8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EF8A5013-AF97-40D0-9FE3-01EBAE8E0176}
