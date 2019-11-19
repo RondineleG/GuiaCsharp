@@ -63,6 +63,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsultaAnonimoLINQ", "Cons
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CriandoIntefaces", "CriandoIntefaces\CriandoIntefaces.csproj", "{C15DEAF8-D62E-43C7-9755-880A03DF4EA5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassesObjetos", "ClassesObjetos\ClassesObjetos.csproj", "{8982BE7C-AE15-4CB7-B43D-BA5275E93080}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -177,6 +179,10 @@ Global
 		{C15DEAF8-D62E-43C7-9755-880A03DF4EA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C15DEAF8-D62E-43C7-9755-880A03DF4EA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C15DEAF8-D62E-43C7-9755-880A03DF4EA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8982BE7C-AE15-4CB7-B43D-BA5275E93080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8982BE7C-AE15-4CB7-B43D-BA5275E93080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8982BE7C-AE15-4CB7-B43D-BA5275E93080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8982BE7C-AE15-4CB7-B43D-BA5275E93080}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -209,6 +215,7 @@ Global
 		{C34EE9CE-9934-4715-84AB-88F2BF619258} = {E912339F-3EEC-4739-9E8D-D47879BE55C8}
 		{4640A779-E721-4C4B-B20A-6851D98464BF} = {E912339F-3EEC-4739-9E8D-D47879BE55C8}
 		{C15DEAF8-D62E-43C7-9755-880A03DF4EA5} = {E912339F-3EEC-4739-9E8D-D47879BE55C8}
+		{8982BE7C-AE15-4CB7-B43D-BA5275E93080} = {E912339F-3EEC-4739-9E8D-D47879BE55C8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EF8A5013-AF97-40D0-9FE3-01EBAE8E0176}
