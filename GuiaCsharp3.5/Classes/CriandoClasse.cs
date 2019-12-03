@@ -5,19 +5,29 @@ using System.Text;
 
 namespace Classes
 {
+    // Modificadores de acesso publico
     public class CriandoClasse
     {
-        public string  campo = string.Empty;    
+        //propriedade
+        public string  campo = string.Empty;
 
+        //Contrutor
+        public CriandoClasse()
+        {
+
+        }
+        //metodo
     public void MeuMetodo(int primeiroParametro, string segundoParametro)
     {
         Console.WriteLine("Primeiro Parametro {0}, Segundo Parametro {1}",
                                                     primeiroParametro, segundoParametro);
     }
 
+        //propriedade automatica
     public int PropriedadeAutomatica { get; set; }
 
 
+        //propriedade encapsulada
     private int _minhaPropriedade;
 
     public int MinhaPropriedade
