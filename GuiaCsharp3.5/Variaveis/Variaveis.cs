@@ -9,11 +9,11 @@ namespace Variaveis
         static void Main()
         {
             int idade;
-            double peso;
-            float altura;
+            double peso = 68.0;
+            float altura = 130.5f;
             string nome;
-            char sexo;
-            decimal preco;
+            char sexo = 'M';
+            decimal preco = 1200;
             Console.Title = "Variaveis";
             
             Console.WriteLine("Qual seu nome ?");
@@ -22,7 +22,6 @@ namespace Variaveis
             Console.WriteLine("Qual sua idade?");
             idade = Convert.ToInt32(Console.ReadLine());
 
-
             if (idade < 18)
             {
                 Console.WriteLine("Idade nao permitida");
@@ -30,8 +29,11 @@ namespace Variaveis
             }
             else
             {
-                Console.WriteLine("Ola " + nome + "com " + idade + " anos ja e um adulto");
+                Console.WriteLine("Ola " + nome + " com " + idade + " anos ja e um adulto");
             }
+
+            Console.WriteLine("Nome : " + nome + " Idade : " + idade + " Sexo : " + sexo +
+                " Peso: " + peso + " Altura: " + altura + " Prec: " + preco);
                 Console.ReadKey();
         }
     }
