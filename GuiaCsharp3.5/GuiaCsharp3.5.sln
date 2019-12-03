@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variaveis", "Variaveis\Variaveis.csproj", "{2C029A4F-7479-4E18-9AB4-A8BD7DE13C2B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Keywords", "Keywords\Keywords.csproj", "{4E8F1BFA-9F78-4862-8631-97FC2CF17F5B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{2C029A4F-7479-4E18-9AB4-A8BD7DE13C2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C029A4F-7479-4E18-9AB4-A8BD7DE13C2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C029A4F-7479-4E18-9AB4-A8BD7DE13C2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E8F1BFA-9F78-4862-8631-97FC2CF17F5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E8F1BFA-9F78-4862-8631-97FC2CF17F5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E8F1BFA-9F78-4862-8631-97FC2CF17F5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E8F1BFA-9F78-4862-8631-97FC2CF17F5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
